@@ -22,7 +22,7 @@ public class Jugador {
 
     public void repartir() {
 
-        List<String> archivos = obtenerArchivosDeCarpeta("C:\\Users\\Anthony_\\Documents\\ITM JAVA\\JuegoCartasExamen\\JuegoCartas\\src\\imagenes");
+        List<String> archivos = obtenerArchivosDeCarpeta("C:\\Users\\Anthony_\\Documents\\ITM JAVA\\JuegoCartasExamen\\JuegoCartas\\src\\imagenes"); 
 
         for (int i = 0; i < TOTAL_CARTAS; i++) {
             int indiceAleatorio = r.nextInt(archivos.size());
